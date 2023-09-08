@@ -1,0 +1,534 @@
+/* Reset de estilos padrão */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body, h1, h3{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  color: gold;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Estilos do header e do menu */
+header {
+  background-color: #333;
+  color: white;
+  padding: 100px 0;
+}
+
+.cabecalho {
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.5s ease;
+}
+
+.cabecalho:hover {
+  background-color: gold;
+  color: #000000;
+  border-radius: 5px;
+}
+
+.logo img {
+  border-radius: 30%;
+  background-size: cover;
+  height: 100px;
+  width: auto;
+}
+
+
+/* Estilos para o menu */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center;
+  height: 95px;
+}
+
+.menu li {
+  margin-bottom: 20px;
+}
+
+.menu a {
+  color: gold;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+/* Estilos das seções */
+section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+/* Estilo do Agendamento*/
+#agendamento a {
+  text-align: center;
+}
+
+.agendamento {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.agendamento:hover {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: gold;
+  color: black;
+  padding: 15px 25px;
+  border-radius: 15px;
+}
+
+
+/* Estilos das caixas de feedback */
+.feedbacks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.feedback {
+  width: 200px;
+  margin: 10px;
+}
+
+.feedback img {
+  width: 100%;
+  height: 100%;
+}
+
+.feedback p {
+  margin-top: 10px;
+}
+
+.comentario,
+.letrafeed{
+  margin: 10px;
+  color: black;
+  background-color: rgb(51, 44, 44);
+  text-align: center;
+  box-shadow: 0px 0px 10px gold;
+}
+
+.comentario img {
+  border-radius: 25px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.comentario {
+  border-radius: 25px;
+}
+  
+.letrafeed {
+  color: gold;
+  background-color: black;
+  border-radius: 5px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+  
+.comentario, 
+.letrafeed {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Estilos da localização */
+.localizacao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.localizacao img {
+  width: 45%;
+}
+
+.localizacao iframe {
+  width: 45%;
+  height: 300px;
+  border: none;
+}
+
+
+/*Estilo do Instagram*/
+
+.insta img {
+  width: 100px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.insta {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  background-color: black;
+  color: gold;
+  text-align: center;
+  box-shadow: 0px 0px 10px gold;
+}
+
+#instagram {
+  text-align: center;
+}
+
+#instagram {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.letrainstagram {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#instagram p {
+  color: gold;
+}
+
+.letrainstagram {
+  background-color: rgb(2, 2, 2);
+  border-radius: 5px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.letrainstagram {
+  background-color: #3f3c3c;
+  color: black;
+  text-align: center;
+  box-shadow: 0px 0px 10px blue;
+}
+
+.insta:hover{
+  box-shadow: 0px 0px 20px blue;
+  width: 200px;
+  border-radius: 15px;
+  transform: translateY(-15px);
+}
+
+.insta:hover img {
+  box-shadow: 0px 0px 20px blue;
+  width: 100%;
+  border-radius: 15px;
+  transform: translateY(-15px);
+}
+
+
+/* Estilo da Galeria*/
+#galeria img{
+  border-radius: 25px;
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  }
+
+.galeria {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  background-color: #070707;
+  color: black;
+  text-align: center;
+  box-shadow: 0px 0px 10px gold;
+}
+
+#galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.letragaleria {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.letragaleria {
+  color: gold;
+  background-color: rgb(2, 2, 2);
+  border-radius: 5px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.letragaleria{
+  margin: 10px;
+  background-color: #3f3c3c;
+  color: black;
+  text-align: center;
+  box-shadow: 0px 0px 10px gold;
+}
+
+/* Estilos da Parceria */
+.parceria {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.5s ease;
+}
+
+.parceria:hover {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: gold;
+  color: black;
+  padding: 15px 25px;
+  border-radius: 15px;
+}
+
+
+/* Estilos do footer */
+footer {
+  background-color: #1a142f;
+}
+
+.footer {
+  padding: 85px 15% 70px;
+}
+
+.footer {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 3.5rem;
+  background-color: #1a142f;
+  position: relative;
+  color: white;
+  justify-content: space-evenly;
+}
+
+.calcadishopping {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 33px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.fundo {
+  width: 130px;
+  height: 100px;
+}
+
+.calça {
+  color: #faebd7;
+}
+
+.di {
+color: #2f4f4f;
+}
+
+.shopping {
+  color: #daa520;
+}
+
+.footer-content h4 {
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+}
+
+.footer-content ul {
+  margin-bottom: 16px;
+}
+
+.footer-content ul a {
+  font-size: 15px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+  color: white;
+}
+
+.footer-content p {
+  font-size: 16px;
+  line-height: 30px;
+  margin: 20px 0;
+}
+
+.listafooter {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+.letrasfooter {
+  display: flex;
+  justify-content: center;
+  margin: 2px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+.letrasfooter:hover {
+  background-color: gold;
+  color: #000000;
+  border-radius: 25px;
+  padding: 20px 30px;
+}
+
+.endereco {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.endereco p {
+  margin: 0;
+  padding: 0;
+}
+
+.criador {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.origem {
+  color: white;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Responsividade para tamanhos de tela menores */
+@media screen and (max-width: 750px) {  
+  .comentario img {
+    border-radius: 25px;
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  .localizacao img {
+    margin: 10px;
+  }
+
+  .localizacao {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .localizacao img,
+  .localizacao iframe {
+    width: 100%;
+  }
+  .logo img {
+    margin: 10px;
+    border-radius: 25%;
+    background-size: cover;
+    height: 90px;
+    width: auto;
+  }
+  
+
+  /* Estilos para o menu */
+  .cabecalho {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: all 0.5s ease;
+  }
+  
+  .cabecalho:hover {
+    background-color: gold;
+    color: #000000;
+    border-radius: 50px;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+  }
+  
+  .menu li {
+    margin-bottom: 20px;
+  }
+  
+  .menu a {
+    color: rgb(247, 246, 241);
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+
+  /* Estilo do Rodapé*/
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px 5%;
+  }
+
+  .footer-content {
+    margin-bottom: 30px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .feedbacks {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .imgfeedback {
+    width: 5000px;
+  }
+  
+  .localizacao iframe {
+    height: 200px;
+  }
+}
