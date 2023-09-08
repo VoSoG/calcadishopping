@@ -425,6 +425,10 @@ color: #2f4f4f;
   justify-content: space-between;
 }
 
+.criador a {
+  color: white;
+}
+
 .origem {
   color: white;
   display: flex;
